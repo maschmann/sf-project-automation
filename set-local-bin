@@ -1,0 +1,4 @@
+#!/bin/bash
+if [ ! -d "~/bin" ]; then 
+  ln -s ~/htdocs/sf-project-automation/node/bin/ ~/bin 
+fi
